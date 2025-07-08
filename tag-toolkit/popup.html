@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Toolkit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <button id="tab-scripts" class="tab active">Default Meta & Script Tags</button>
+        <button id="tab-results" class="tab" disabled>Dynamic & Asynchronous Tags</button>
+    </div>
+    <div id="controls">
+        <img id="tag-toolkit-icon" src="icons/icon128.png" alt="Tag Toolkit" title="Tag Toolkit">
+        <button id="start-analysis">Start Analysis</button>
+        <button id="reload-page">Reload Page</button>
+        <input type="text" id="search-box" placeholder="Search Results...">
+        <div id="icons-container">
+            <!-- Icons for GTM and Google Analytics, faded by default -->
+            <img id="gtm-icon" src="icons/gtm-notdetected-icon.png" alt="GTM" title="Google Tag Manager: Not Detected">
+            <img id="ga-icon" src="icons/ga-notdetected-icon.png" alt="Google Analytics" title="Google Analytics: Not Detected">
+        </div>
+    </div>
+    <div id="tab-content">
+        <div id="content-scripts" class="content active">
+            <div id="analysis-results">
+                <!-- Content for Scripts & Meta tab will be populated here -->
+            </div>
+        </div>
+        <div id="content-results" class="content">
+            <button id="download-results" disabled>Download Results</button>
+            <!-- Content for Results tab will be populated here -->
+        </div>
+        <footer class="footer">
+            <div id="date-time"></div>
+            <p>Tag Toolkit &copy; 2024 <a href="https://www.linkedin.com/in/michael-r-miller-jr/" target="_blank">Michael Miller Jr</a></p>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
