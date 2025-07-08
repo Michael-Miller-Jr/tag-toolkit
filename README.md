@@ -62,7 +62,7 @@ Tag Toolkit requests the following permissions:
 
 ## 📸 Screenshots
 
-> _Coming soon!_
+![tag-toolkit](https://github.com/user-attachments/assets/93b16cf2-1897-41a9-bdc6-807e85f4c7e1)
 
 ---
 
@@ -74,7 +74,8 @@ Want to improve Tag Toolkit or add new detection logic? Contributions are welcom
 
 ## 📄 License
 
-This project is open source and licensed under the [MIT License](LICENSE).
+Proprietary / All Rights Reserved (No license declared)
+- If a project has no license, you cannot legally reuse, copy, modify, or distribute the code. All rights are reserved by default under copyright law.
 
 ---
 
